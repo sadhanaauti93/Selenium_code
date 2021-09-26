@@ -1,0 +1,6 @@
+Feature: Git Hub Login
+
+Scenario: User wants to search an information on given topic
+Given User should open Git Hub URL 
+When User should click on Url
+Then User should login git hub 

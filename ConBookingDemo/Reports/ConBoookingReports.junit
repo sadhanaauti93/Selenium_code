@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.17">
+    <testcase classname="Conference Registration &amp; Payment" name="Conference Registration" time="16.444">
+        <failure message="expected:&lt;[file:///C:/Users/admin/Desktop/ConferenceRegistartion.html]&gt; but was:&lt;[Conference Registartion]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Launch the application browser........................................passed
+When Open the web page ConferenceRegistartion.html in the browser...........passed
+Then Verify the title 'Conference Registartion' of the page.................failed
+Then Click on Next without First Name.......................................skipped
+And Verify that the message 'Please fill the First Name'....................skipped
+Then Enter First Name.......................................................skipped
+Then Click on Next without Last Name........................................skipped
+And Verify that the message 'Please fill the Last Name'.....................skipped
+Then Enter Last Name........................................................skipped
+Then Click on without Email.................................................skipped
+And Verify that the message 'Please fill the Email'.........................skipped
+Then Enter Email............................................................skipped
+Then Click next without Contact number......................................skipped
+And Verify that the message 'Please fill the Contact No.'...................skipped
+Then Click on Next with Invalid Contact number..............................skipped
+And Verify that the message 'Please enter valid Contact no.'................skipped
+Then Enter Valid Contact number.............................................skipped
+Then Click on Next without Number of people attending.......................skipped
+And Verify that the message 'Please fill the Number of people attending'....skipped
+Then Select Number of people attending......................................skipped
+Then Click on Next without Building Name & Room No..........................skipped
+And Verify that the message 'Please fill the Building & Room No'............skipped
+Then Enter Building Name & Room No..........................................skipped
+Then Click on Next without Area name........................................skipped
+And Verify that the message 'Please fill the Area name'.....................skipped
+Then Enter Area name........................................................skipped
+Then Click on Next with Select City.........................................skipped
+And Verify that the message 'Please select city'............................skipped
+Then Select City............................................................skipped
+Then Click without State....................................................skipped
+And Verify that the message 'Please select state'...........................skipped
+Then Select State...........................................................skipped
+Then Click Next without full-Access(member) or Select Conference full-Access(non-member).skipped
+And Verify that the message 'Please Select MemeberShip status'..............skipped
+Then Select Conference full-Access(member) or Select Conference full-Access(non-member).skipped
+Then Click on the link Next.................................................skipped
+And Verify that the message 'Personal details are validated.'...............skipped
+And Verify that you are then navigated to next page PaymentDetails.html.....skipped
+Then Verify the title 'Payment Details' of the page.........................skipped
+Then Click on the Make Payment without Card Holder Name.....................skipped
+And Verify that the message 'Please fill the First Name'....................skipped
+Then Enter Card Holder Name.................................................skipped
+Then Click on the Make Payment without Card Holder LastName.................skipped
+And Verify that the message 'Please fill the Last Name'.....................skipped
+Then Enter Card Holder LastName.............................................skipped
+Then Click on the Make Payment without Card Number..........................skipped
+And Verify that the message 'Please fill the Debit card Number'.............skipped
+And Enter Debit card Number.................................................skipped
+Then Click on the Make Payment without Cvv Number...........................skipped
+And Verify that the message 'Please fill the CVV'...........................skipped
+And Enter Cvv Number........................................................skipped
+Then Click on the Make Payment without Card expiration month................skipped
+And Verify that the message 'Please fill expiration month'..................skipped
+Then Enter Card expiration month............................................skipped
+Then Click on the Make Payment without Card expiration year.................skipped
+And Verify that the message 'Please fill the expiration year'...............skipped
+Then Enter Card expiration year.............................................skipped
+Then Click on Make Payment button...........................................skipped
+And Verify that the alert box displays the message 'Registarion successful!!!'.skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[file:///C:/Users/admin/Desktop/ConferenceRegistartion.html]> but was:<[Conference Registartion]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cg.project.stepdefs.ConBookingLoginstepdefs.verify_the_title_of_the_page(ConBookingLoginstepdefs.java:42)
+	at ✽.Verify the title 'Conference Registartion' of the page.(file:///C:/Users/SADGHADG/OneDrive%20-%20Capgemini/Documents/WebDriverDemonew/ConBookingDemo/Features/ConBooking.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>

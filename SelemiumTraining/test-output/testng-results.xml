@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-12T14:44:20 IST" name="Default suite" finished-at="2021-08-12T14:44:29 IST" duration-ms="8929">
+    <groups>
+    </groups>
+    <test started-at="2021-08-12T14:44:20 IST" name="Default test" finished-at="2021-08-12T14:44:29 IST" duration-ms="8929">
+      <class name="framework.TestCase">
+        <test-method signature="initbrowse()[pri:1, instance:framework.TestCase@1eb5174b]" started-at="2021-08-12T14:44:21 IST" name="initbrowse" finished-at="2021-08-12T14:44:29 IST" duration-ms="8725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowse -->
+        <test-method signature="navigate()[pri:2, instance:framework.TestCase@1eb5174b]" started-at="2021-08-12T14:44:29 IST" name="navigate" finished-at="2021-08-12T14:44:29 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+      </class> <!-- framework.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
